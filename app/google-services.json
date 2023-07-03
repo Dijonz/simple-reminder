@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "256569016710",
+    "project_id": "simplereminder-5decb",
+    "storage_bucket": "simplereminder-5decb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256569016710:android:c33c2b5ec7134348d36c07",
+        "android_client_info": {
+          "package_name": "com.dijonz.myreminder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256569016710-9q3g5ako8c63ujmoq6s59j866tk8sv51.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZiMEjiCZ7a-077HfWCJXoCkA3HL-PdnI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256569016710-9q3g5ako8c63ujmoq6s59j866tk8sv51.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
