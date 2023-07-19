@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:paddingTop="5dp">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvVh_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Titulo"
+        android:textSize="30sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivVh_delete"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/icon_delete_item"
+        android:layout_alignParentEnd="true"
+        />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivVh_edit"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/icon_edit_item"
+        android:layout_toLeftOf="@+id/ivVh_delete"/>
+
+</RelativeLayout>
